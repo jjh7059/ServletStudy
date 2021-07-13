@@ -3,12 +3,12 @@ package xyz.itwill.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import jakarta.servlet.ServletConfig;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 //서블릿(웹 프로그램)은 클라이언트 요청에 의해 WAS(Web Application Server)에 등록된 서블릿
 //클래스를 읽어 메모리에 저장하고 인스턴스를 생성하여 service 메소드를 호출하여 요청에

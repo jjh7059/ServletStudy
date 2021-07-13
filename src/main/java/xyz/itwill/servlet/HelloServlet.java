@@ -3,10 +3,10 @@ package xyz.itwill.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 //서블릿(웹에서 실행되는 프로그램) 작성 방법
 //1. HttpServlet 클래스를 상속받아 작성 - 서블릿 클래스
