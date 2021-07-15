@@ -37,7 +37,7 @@ public class JndiServlet extends HttpServlet {
 			// => Object 타입으로 인스턴스를 반환하므로 명시적 객체 형변환하여 사용
 			// => NamingException : 식별자로 등록된 자원이 없는 경우 발생되는 예외
 			DataSource dataSource = (DataSource)ic.lookup("java:comp/env/jdbc/oracle");
-			
+
 			Connection con = dataSource.getConnection();
 			
 			out.println("<!DOCTYPE html>");
